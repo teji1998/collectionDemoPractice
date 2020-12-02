@@ -1,0 +1,13 @@
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\bin\Debug\netcoreapp3.1\CollectionPracticeDemo.exe
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\bin\Debug\netcoreapp3.1\CollectionPracticeDemo.deps.json
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\bin\Debug\netcoreapp3.1\CollectionPracticeDemo.runtimeconfig.json
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\bin\Debug\netcoreapp3.1\CollectionPracticeDemo.runtimeconfig.dev.json
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\bin\Debug\netcoreapp3.1\CollectionPracticeDemo.dll
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\bin\Debug\netcoreapp3.1\CollectionPracticeDemo.pdb
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\obj\Debug\netcoreapp3.1\CollectionPracticeDemo.csprojAssemblyReference.cache
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\obj\Debug\netcoreapp3.1\CollectionPracticeDemo.AssemblyInfoInputs.cache
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\obj\Debug\netcoreapp3.1\CollectionPracticeDemo.AssemblyInfo.cs
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\obj\Debug\netcoreapp3.1\CollectionPracticeDemo.csproj.CoreCompileInputs.cache
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\obj\Debug\netcoreapp3.1\CollectionPracticeDemo.dll
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\obj\Debug\netcoreapp3.1\CollectionPracticeDemo.pdb
+C:\Users\PRITHVIL5\source\repos\CollectionPracticeDemo\CollectionPracticeDemo\obj\Debug\netcoreapp3.1\CollectionPracticeDemo.genruntimeconfig.cache
