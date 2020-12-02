@@ -196,10 +196,6 @@ namespace CollectionPracticeDemo
             //to get count after clearing the hash set
             Console.WriteLine("Total number of elements present in hash list : {0}", hashList1.Count);
 
-
-
-
-
         }
     } 
        
