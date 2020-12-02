@@ -23,6 +23,22 @@ namespace CollectionPracticeDemo
             Console.WriteLine("Code for queue");
             collectionDemo.DisplayQueue();
 
+            //List
+            Console.WriteLine("=================================");
+            Console.WriteLine("Code for list");
+            collectionDemo.DisplayList();
+
+            //Hashset
+            Console.WriteLine("=================================");
+            Console.WriteLine("Code for hashset");
+            collectionDemo.DisplayHashSet();
+
+            //Dictionary
+            //Hashset
+            Console.WriteLine("=================================");
+            Console.WriteLine("Code for dictionary");
+            collectionDemo.DisplayDictionary();
+
 
         }
     }

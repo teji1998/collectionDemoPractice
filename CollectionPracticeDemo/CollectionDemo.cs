@@ -12,6 +12,9 @@ namespace CollectionPracticeDemo
         //Arraylist
         public void DisplayArrayList()
         {
+            Console.WriteLine("=============================");
+            Console.WriteLine("Example on arraylist ");
+
             ArrayList arrayList = new ArrayList();
             arrayList.Add(42);
             arrayList.Add(56);
@@ -47,6 +50,9 @@ namespace CollectionPracticeDemo
         //Stack
         public void DisplayStack()
         {
+            Console.WriteLine("=============================");
+            Console.WriteLine("Example on stack ");
+
             Stack stackList = new Stack();
 
             stackList.Push("Amanda");
@@ -91,6 +97,9 @@ namespace CollectionPracticeDemo
         //Queue
         public void DisplayQueue()
         {
+            Console.WriteLine("=============================");
+            Console.WriteLine("Example on queue ");
+
             Queue queueList = new Queue();
 
             queueList.Enqueue("Alfredo");
@@ -124,6 +133,7 @@ namespace CollectionPracticeDemo
         }
 
         //List
+
         public void DisplayList()
         {
             Console.WriteLine("=============================");
@@ -155,6 +165,8 @@ namespace CollectionPracticeDemo
             //To find the count
             Console.WriteLine("Count of list : " +itemList.Count);
         }
+
+        //Hashset
 
         public void DisplayHashSet()
         {
@@ -195,6 +207,26 @@ namespace CollectionPracticeDemo
 
             //to get count after clearing the hash set
             Console.WriteLine("Total number of elements present in hash list : {0}", hashList1.Count);
+
+        }
+
+        //Dictionary
+        public void DisplayDictionary()
+        {
+            Console.WriteLine("=============================");
+            Console.WriteLine("Example on dictionary ");
+
+            Dictionary<int, string> dictionary = new Dictionary<int, string>();
+            dictionary.Add(1, "Teji");
+            dictionary.Add(2, "Lee Minho");
+            dictionary.Add(3, "Taemin");
+            //Using key
+            Console.WriteLine("To access using key(key = 2) : " + dictionary[2]);
+            //To iterate the items in list
+            foreach (var element in dictionary)
+            {
+                Console.WriteLine("key : " + element.Key + "& value : " + element.Value);
+            }
 
         }
     } 
