@@ -27,7 +27,14 @@ namespace CollectionPracticeDemo
             {
                 Console.WriteLine(i + " ");
             }
-                
+
+            //To see if element present or not
+            Console.WriteLine("Element present or not : " + arrayList.Contains(56));
+
+            //To see if element present or not
+            Console.WriteLine("Element present or not : " + arrayList.Contains(8));
+
+
             Console.WriteLine("Content in sorted order : ");
             arrayList.Sort();
             foreach(int i in arrayList)
@@ -115,7 +122,85 @@ namespace CollectionPracticeDemo
             queueList.Clear();
             Console.WriteLine("Total number of elements left:" + queueList.Count);
         }
-    }
- 
+
+        //List
+        public void DisplayList()
+        {
+            Console.WriteLine("=============================");
+            Console.WriteLine("Example on list ");
+
+            //To create list
+            List<string> itemList = new List<string>();
+
+            //Adding objects to list
+            itemList.Add("Exo");
+            itemList.Add("Bts");
+            itemList.Add("Blackpink");
+            itemList.Add("WannaOne");
+            itemList.Add("Twice");
+            itemList.Add("Super Junior");
+
+            //To iterate the items in list
+            foreach (var element in itemList)
+            {
+                Console.WriteLine("Items are :" + element);
+            }
+
+            //To see if element present or not
+            Console.WriteLine("Element present or not : " +itemList.Contains("Twice"));
+
+            //To find the capacity
+            Console.WriteLine("Capacity of list : " +itemList.Capacity);
+
+            //To find the count
+            Console.WriteLine("Count of list : " +itemList.Count);
+        }
+
+        public void DisplayHashSet()
+        {
+
+            Console.WriteLine("=============================");
+            Console.WriteLine("Example on hash set ");
+            HashSet<string> hashList1 = new HashSet<string>();
+            //To add items
+            hashList1.Add("Teji");
+            hashList1.Add("Bhagi");
+            hashList1.Add("Adi");
+            hashList1.Add("Kai");
+
+            //To display hash set
+            foreach (var element in hashList1)
+            {
+                Console.WriteLine(element);
+            }
+
+            //To see if element present or not
+            Console.WriteLine("Element present or not : " + hashList1.Contains("Adi"));
+
+            //To see if element present or not
+            Console.WriteLine("Element present or not : " + hashList1.Contains("Taemin"));
+
+
+            //to get count
+            Console.WriteLine("Total number of elements present in hash list : {0}", hashList1.Count);
+
+            //Remove a element
+            hashList1.Remove("Kai");
+
+            //to get count after removing element
+            Console.WriteLine("Total number of elements present in hash list : {0}", hashList1.Count);
+
+            //clearing the hash set
+            hashList1.Clear();
+
+            //to get count after clearing the hash set
+            Console.WriteLine("Total number of elements present in hash list : {0}", hashList1.Count);
+
+
+
+
+
+        }
+    } 
        
 }
